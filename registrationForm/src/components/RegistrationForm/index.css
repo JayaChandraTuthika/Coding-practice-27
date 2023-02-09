@@ -1,0 +1,67 @@
+/* Write your CSS code here */
+* {
+  font-family: 'roboto';
+}
+.bg-container {
+  height: 100vh;
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  padding: 15px;
+  /* border: 1px solid black; */
+  width: 370px;
+}
+.main-heading {
+  color: #ea580c;
+  text-align: center;
+  font-size: 45px;
+}
+.label {
+  font-size: 14px;
+  color: #475569;
+  font-weight: 600;
+}
+
+.first-name-input {
+  width: 100%;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  padding: 5px 10px;
+  outline: none;
+}
+.gap {
+  margin-bottom: 25px;
+}
+.error-text {
+  font-size: 12px;
+  color: #ff0b37;
+  margin-top: 0;
+}
+.submit-btn {
+  background-color: #ea580c;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 8px;
+  margin-left: 35%;
+}
+.success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.submitted-image {
+  height: 100px;
+}
+.submit-btn-success {
+  background-color: #ea580c;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 8px;
+}
